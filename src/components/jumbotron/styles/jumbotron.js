@@ -13,16 +13,20 @@ export const Inner = styled.div`
         flex-direction: column;
     }
 `;
-
-export const Container = styled.div`
-
-`;
 export const Item = styled.div`
     display:flex;
     border-bottom:8px solid #222;
     padding: 50px;
     color:white;
     overflow:hidden;
+`;
+
+export const Container = styled.div`
+    @media(max-width: 1000px){
+        ${Item}:last-of-type h2 {
+            margin-bottom: 50px;
+        }
+    }
 `;
 export const Pane = styled.div`
     width:50%;
