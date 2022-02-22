@@ -56,7 +56,7 @@ export const Button = styled.button`
 
 export const Text = styled.p`
 
-    font-size:19.2px;
+    font-size:16px;
     color:white;
     text-align:center;
 
